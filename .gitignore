@@ -1,0 +1,23 @@
+@"
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+. Python
+.venv/
+
+# Torch / large binaries
+*.dll
+*.lib
+
+# onnx
+*.onnx
+
+# tar
+*.tar
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
