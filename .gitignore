@@ -1,23 +1,33 @@
-@"
-# Python
+# ===== Python =====
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-. Python
-.venv/
 
-# Torch / large binaries
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ===== PyTorch / ML =====
+.cache/
+*.pt
+*.pth
+*.onnx
+
+# Large binaries (Windows)
 *.dll
 *.lib
 
-# onnx
-*.onnx
-
-# tar
+# Archives
 *.tar
+*.zip
 
-# OS
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== OS =====
 .DS_Store
 Thumbs.db
-"@ | Out-File -Encoding utf8 .gitignore
