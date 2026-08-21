@@ -1,0 +1,6 @@
+[submodule "native/third_party/dr_libs"]
+	path = native/third_party/dr_libs
+	url = https://github.com/mackron/dr_libs.git
+[submodule "native/third_party/kissfft"]
+	path = native/third_party/kissfft
+	url = https://github.com/mborgerding/kissfft.git
